@@ -1,0 +1,49 @@
+.filters-container{
+	grid-row: 1 / span 4;
+}
+
+.filters-container>div{
+	width: 100%;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #2E4D2C;
+	padding-left: 10px;
+}
+
+.filters-container select {
+	appearance: none;
+	width: 100%;
+	line-height: 50px;
+	background-image: url("../img/svg/arrow-down.svg");
+	background-repeat: no-repeat;
+	background-position: right 20px top 50%;
+	background-size: 24px 24px;
+	font-size: 18px;
+	font-family: "Sofia sans";
+	border: 1px solid #000;
+	padding-left: 10px;
+}
+
+.filters-form>*{
+	margin-top: 10px;
+}
+
+.price-container{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background-color: #2E4D2C;
+}
+
+.price-container label{
+	text-align: center;
+
+}
+
+.price-container input {
+	font-size: 18px;
+	width: 50%;
+	min-width: 20%;
+}

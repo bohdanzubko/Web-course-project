@@ -1,0 +1,31 @@
+.wh-btn{
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	font-size: 20px;
+	border: 1px solid white;
+	color: white;
+}
+
+.wh-btn:hover{
+	background: white;
+	color: black;
+}
+
+.bl-btn{
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	font-size: 20px;
+	border: 1px solid black;
+	color: black;
+}
+
+.bl-btn:hover{
+	background: black;
+	color: white;
+}
+
+.cat-btn{
+	margin: 30px calc(50% - 100px) 0;
+}

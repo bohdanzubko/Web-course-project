@@ -1,0 +1,48 @@
+footer{
+	background: #2E4D2C;
+}
+
+.f-content{
+	display: flex;
+	padding: 50px 70px 10px ;
+}
+
+.f-content>*:not(:last-child){
+	width: 30%;
+	margin-right: 100px;
+}
+
+.f-content h3, .f-links li, .f-contacts{
+	line-height: 40px;
+}
+
+.f-socials{
+	display: flex;
+}
+
+.f-socials>*:not(:last-child){
+	margin-right: 10px;
+}
+
+.f-about-us>*:nth-child(3){
+	margin: 10px 0 ;
+}
+
+#copyright{
+	padding: 0 70px 20px;
+}
+
+@media screen and (max-width: 768px){
+	.f-content{
+		display: block;
+	}
+
+	.f-content>*:not(:last-child){
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	#copyright{
+		padding-top: 30px;
+	}
+}

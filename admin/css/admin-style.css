@@ -1,0 +1,7 @@
+.img-output{
+	max-height: 300px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 10px;
+	overflow-y: scroll;
+}

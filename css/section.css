@@ -1,0 +1,27 @@
+.sect{
+	margin: 60px 0;
+	padding: 0 45px;
+}
+
+.sect-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 50px;
+	justify-items: center;
+}
+
+.sect h2{
+	color: black;
+}
+
+.prod-section{
+	display: flex;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px){
+	.prod-section{
+		display: block;
+		justify-content: space-between;
+	}
+}

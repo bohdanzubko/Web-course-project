@@ -1,0 +1,15 @@
+.cont-info{
+    color: black;
+}
+
+.cont-info>*:not(:first-child){
+    margin: 0 15%;
+}
+
+.cont-info>ul{
+    list-style: disc;
+}
+
+.cont-info>ul>li{
+    margin-left: 30px;
+}

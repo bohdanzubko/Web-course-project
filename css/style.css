@@ -1,0 +1,33 @@
+/*reset some standart styles*/
+@import "reset.css";
+
+/*set common styles for pages*/
+@import "common.css";
+
+@import "header.css";
+
+@import "logo.css";
+
+@import "icon.css";
+
+@import "img.css";
+
+@import "slider.css";
+
+@import "section.css";
+
+@import "card.css";
+
+@import "button.css";
+
+@import "catalog.css";
+
+@import "contacts.css";
+
+@import "filters.css";
+
+@import "product-gallery.css";
+
+@import "product-info.css";
+
+@import "footer.css";
